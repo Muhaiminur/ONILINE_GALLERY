@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android Test</string>
+    <string name="action_us">About Us</string>
+
+    <string name="image_list_string">Image List</string>
+    <string name="image_details_string">Image Details</string>
+
+    <string name="ok_string">Ok</string>
+    <string name="no_data_string">No Data</string>
+    <string name="no_browser_string">No Browser Found To Open Link</string>
+
+    <!--about me-->
+    <string name="name_string">Muhaiminur Rahman</string>
+    <string name="email_string">muhaiminurabir@gmail.com</string>
+    <string name="mobile_string">01672001715</string>
+    <string name="github_string">https://github.com/Muhaiminur</string>
+    <string name="stackoverflow_string">https://stackoverflow.com/users/3051503/muhaiminur-rahman</string>
+    <string name="git_string">GITHUB LINK</string>
+    <string name="stack_string">STACKOVERFLOW LINK</string>
+</resources>

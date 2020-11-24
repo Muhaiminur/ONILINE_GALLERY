@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".VIEW.ACTIVITY.AboutUs">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="@string/name_string"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/app_yellow"
+            android:textSize="@dimen/font_big"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="@string/email_string"
+            android:textAlignment="center"
+            android:textColor="@color/app_black1"
+            android:textSize="@dimen/font_big" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="@string/mobile_string"
+            android:textAlignment="center"
+            android:textColor="@color/app_black1"
+            android:textSize="@dimen/font_xxl" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_drop_shadow" />
+
+        <Button
+            android:id="@+id/me_git"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangular_yellow"
+            android:padding="5dp"
+            android:text="@string/git_string"
+            android:textAlignment="center"
+            android:textColor="@color/app_white1"
+            android:textSize="@dimen/font_xxl" />
+
+        <Button
+            android:id="@+id/me_stack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangular_yellow"
+            android:padding="5dp"
+            android:text="@string/stack_string"
+            android:textAlignment="center"
+            android:textColor="@color/app_white1"
+            android:textSize="@dimen/font_xxl" />
+
+    </LinearLayout>
+</layout>

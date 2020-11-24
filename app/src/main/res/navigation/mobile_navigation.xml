@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_imagelist">
+
+    <fragment
+        android:id="@+id/nav_imagelist"
+        android:name="com.bs.androidtest.VIEW.FRAGMENT.ImageListView"
+        android:label="@string/image_list_string"
+        tools:layout="@layout/image_list_view_fragment" />
+    <fragment
+        android:id="@+id/nav_imagedetails"
+        android:name="com.bs.androidtest.VIEW.FRAGMENT.ImageDetailsView"
+        android:label="@string/image_details_string"
+        tools:layout="@layout/image_details_view_fragment" />
+</navigation>
